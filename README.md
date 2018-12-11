@@ -21,7 +21,7 @@ $ npm install http-auth
 // Authentication module.
 var auth = require('http-auth');
 var basic = auth.basic({
-	realm: "Simon Area.",
+	realm: "Ved Prakash Arya.",
 	file: __dirname + "/../data/users.htpasswd"
 });
 
